@@ -12,6 +12,11 @@ target/
 .settings
 .springBeans
 .sts4-cache
+*.cmd
+
+### ECLIPSE ###
+service-KM/.mvn/**
+/bin/**
 
 ### IntelliJ IDEA ###
 .idea
@@ -25,9 +30,14 @@ target/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
+/build/**
 !**/src/main/**/build/
 !**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
+
+# Ignora archivos del sistema Mac 
+.DS_Store
+# Ignore Gradle project-specific cache directory
+.gradle
