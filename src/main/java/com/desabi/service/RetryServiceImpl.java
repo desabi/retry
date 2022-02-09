@@ -9,8 +9,6 @@ import org.springframework.retry.annotation.Retryable;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.time.Instant;
-
 @Service
 public class RetryServiceImpl implements RetryService {
 
